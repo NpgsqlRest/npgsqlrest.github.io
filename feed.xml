@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NpgsqlRest Blog</title>
+    <link>https://npgsqlrest.github.io/blog/</link>
+    <atom:link href="https://npgsqlrest.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Tutorials, deep dives, benchmarks, and release notes for NpgsqlRest — the automatic PostgreSQL web server.</description>
+    <language>en-US</language>
+    <item>
+      <title>PostgreSQL REST API Benchmark, July 2026: 20 Services, 760 Tests, One Question</title>
+      <link>https://npgsqlrest.github.io/blog/benchmarks-2026-07/</link>
+      <guid>https://npgsqlrest.github.io/blog/benchmarks-2026-07/</guid>
+      <pubDate>Wed, 15 Jul 2026 12:00:00 GMT</pubDate>
+      <description>The July 2026 PostgreSQL REST API benchmark series: 16 frameworks and 6 NpgsqlRest configurations tested under equalized conditions. Methodology, fairness changes, and per-framework deep dives.</description>
+    </item>
+    <item>
+      <title>Tests Are SQL Files Too</title>
+      <link>https://npgsqlrest.github.io/blog/npgsqlrest-3.19-sql-test-runner-watch-mode.html</link>
+      <guid>https://npgsqlrest.github.io/blog/npgsqlrest-3.19-sql-test-runner-watch-mode.html</guid>
+      <pubDate>Fri, 26 Jun 2026 12:00:00 GMT</pubDate>
+      <description>The story behind NpgsqlRest 3.19.0: the SQL test runner, watch mode, and why database testing was never actually impossible — you were just using the wrong database.</description>
+    </item>
+    <item>
+      <title>NpgsqlRest 3.20.0: Dart Clients for Flutter, React Query Hooks, and Tool Schemas for AI Agents</title>
+      <link>https://npgsqlrest.github.io/blog/npgsqlrest-3.20-dart-client-react-query-tool-schemas.html</link>
+      <guid>https://npgsqlrest.github.io/blog/npgsqlrest-3.20-dart-client-react-query-tool-schemas.html</guid>
+      <pubDate>Fri, 26 Jun 2026 12:00:00 GMT</pubDate>
+      <description>NpgsqlRest 3.20.0 release notes with real examples: a Dart client generator for Flutter, TanStack Query hooks alongside the TypeScript client, OpenAI/Anthropic function-calling schemas and llms.txt from the MCP tool set, and the HTTP QUERY method.</description>
+    </item>
+    <item>
+      <title>Turn PostgreSQL into MCP Tools an AI Agent Can Call</title>
+      <link>https://npgsqlrest.github.io/blog/mcp-server-postgresql-ai-tools-npgsqlrest.html</link>
+      <guid>https://npgsqlrest.github.io/blog/mcp-server-postgresql-ai-tools-npgsqlrest.html</guid>
+      <pubDate>Wed, 03 Jun 2026 12:00:00 GMT</pubDate>
+      <description>NpgsqlRest 3.17.0 adds Model Context Protocol support. Annotate a PostgreSQL function or .sql file with @mcp and it becomes a tool an AI agent can discover and call — one source, two interfaces (REST + MCP), no glue code.</description>
+    </item>
+    <item>
+      <title>The Backend That Writes Itself — NpgsqlRest in 19 Slides</title>
+      <link>https://npgsqlrest.github.io/blog/the-backend-that-writes-itself-presentation.html</link>
+      <guid>https://npgsqlrest.github.io/blog/the-backend-that-writes-itself-presentation.html</guid>
+      <pubDate>Wed, 03 Jun 2026 12:00:00 GMT</pubDate>
+      <description>An interactive slide deck: how NpgsqlRest turns a PostgreSQL database into a complete, production-grade backend — REST API, typed TypeScript client, and AI-agent tools — with real, reproducible numbers from a product in production.</description>
+    </item>
+    <item>
+      <title>Web Scraping with PostgreSQL: HTTP Types + XML Functions</title>
+      <link>https://npgsqlrest.github.io/blog/web-scraping-postgresql-http-types-xml.html</link>
+      <guid>https://npgsqlrest.github.io/blog/web-scraping-postgresql-http-types-xml.html</guid>
+      <pubDate>Wed, 03 Jun 2026 12:00:00 GMT</pubDate>
+      <description>Scrape a web page entirely in SQL: fetch the HTML with an HTTP Custom Type, parse it with PostgreSQL's built-in XPath functions, and serve the result as JSON. No Python, no scraping service.</description>
+    </item>
+    <item>
+      <title>Case Study: 74 Endpoints, Zero Backend Code — A Production App Built Entirely on NpgsqlRest</title>
+      <link>https://npgsqlrest.github.io/blog/case-study-zero-backend-code.html</link>
+      <guid>https://npgsqlrest.github.io/blog/case-study-zero-backend-code.html</guid>
+      <pubDate>Fri, 01 May 2026 12:00:00 GMT</pubDate>
+      <description>What it actually looks like to ship a production application without a controller layer. Real numbers from a finance/visualization app: ~74 HTTP endpoints, 12K LOC of SQL, zero lines of C# or Python, and an estimated 3,500–7,300 LOC of host-language boilerplate eliminated versus an equivalent ASP.NET Core build.</description>
+    </item>
+    <item>
+      <title>NpgsqlRest 3.13.0: Cache Profiles, Auth Schemes, Per-User Rate Limits, and pgBouncer Compatibility</title>
+      <link>https://npgsqlrest.github.io/blog/npgsqlrest-3.13-production-patterns.html</link>
+      <guid>https://npgsqlrest.github.io/blog/npgsqlrest-3.13-production-patterns.html</guid>
+      <pubDate>Fri, 01 May 2026 12:00:00 GMT</pubDate>
+      <description>NpgsqlRest 3.13.0 release notes with real-world examples: conditional caching with When rules, short-lived sensitive sessions, per-user rate limiting, and multi-tenant search_path with pgBouncer.</description>
+    </item>
+    <item>
+      <title>From SQL to Type-Safe TypeScript: A Walkthrough of NpgsqlRest's Code Generator</title>
+      <link>https://npgsqlrest.github.io/blog/typescript-codegen-walkthrough.html</link>
+      <guid>https://npgsqlrest.github.io/blog/typescript-codegen-walkthrough.html</guid>
+      <pubDate>Fri, 01 May 2026 12:00:00 GMT</pubDate>
+      <description>Generate typed fetch modules and TypeScript interfaces directly from PostgreSQL functions. End-to-end type safety, per-endpoint control with @tsclient annotations, and real-world module organization.</description>
+    </item>
+    <item>
+      <title>SQL File Source: REST Endpoints from Plain .sql Files</title>
+      <link>https://npgsqlrest.github.io/blog/sql-file-source-rest-api-from-plain-sql.html</link>
+      <guid>https://npgsqlrest.github.io/blog/sql-file-source-rest-api-from-plain-sql.html</guid>
+      <pubDate>Thu, 02 Apr 2026 12:00:00 GMT</pubDate>
+      <description>NpgsqlRest 3.12.0 introduces SQL File Source — build REST APIs from plain .sql files. See real examples: auth, real-time chat, CSV exports, external API calls, and file uploads.</description>
+    </item>
+    <item>
+      <title>SQL REST API</title>
+      <link>https://npgsqlrest.github.io/blog/sql-rest-api.html</link>
+      <guid>https://npgsqlrest.github.io/blog/sql-rest-api.html</guid>
+      <pubDate>Thu, 02 Apr 2026 12:00:00 GMT</pubDate>
+      <description>The story behind NpgsqlRest 3.12.0 — SQL file endpoints, the philosophy of database-first development, AI tools, and why I think Clean Architecture got it wrong.</description>
+    </item>
+    <item>
+      <title>CSV and Excel Ingestion Made Easy: PostgreSQL Row Processing</title>
+      <link>https://npgsqlrest.github.io/blog/csv-excel-ingestion-postgresql-npgsqlrest.html</link>
+      <guid>https://npgsqlrest.github.io/blog/csv-excel-ingestion-postgresql-npgsqlrest.html</guid>
+      <pubDate>Sun, 24 Aug 2025 12:00:00 GMT</pubDate>
+      <description>Import CSV and Excel files into PostgreSQL with dynamic schema handling. Row-by-row processing, automatic TypeScript client, progress tracking - all in SQL.</description>
+    </item>
+    <item>
+      <title>Custom Types and Multiset for Nested JSON in PostgreSQL REST APIs</title>
+      <link>https://npgsqlrest.github.io/blog/custom-types-multiset-rest-api.html</link>
+      <guid>https://npgsqlrest.github.io/blog/custom-types-multiset-rest-api.html</guid>
+      <pubDate>Sun, 24 Aug 2025 12:00:00 GMT</pubDate>
+      <description>Learn how to use PostgreSQL custom types and table types in REST APIs. Return nested JSON structures, use composite types as parameters, and build hierarchical responses with NpgsqlRest.</description>
+    </item>
+    <item>
+      <title>Database-Level Security: Building Secure Authentication with PostgreSQL</title>
+      <link>https://npgsqlrest.github.io/blog/database-level-security-postgresql-authentication.html</link>
+      <guid>https://npgsqlrest.github.io/blog/database-level-security-postgresql-authentication.html</guid>
+      <pubDate>Sun, 24 Aug 2025 12:00:00 GMT</pubDate>
+      <description>Implement Principle of Least Privilege at the database level. Build secure authentication with PostgreSQL SECURITY DEFINER, search path protection, and advanced password hashing.</description>
+    </item>
+    <item>
+      <title>End-to-End Static Type Checking: PostgreSQL to TypeScript</title>
+      <link>https://npgsqlrest.github.io/blog/end-to-end-static-type-checking-postgresql-typescript.html</link>
+      <guid>https://npgsqlrest.github.io/blog/end-to-end-static-type-checking-postgresql-typescript.html</guid>
+      <pubDate>Sun, 24 Aug 2025 12:00:00 GMT</pubDate>
+      <description>Automatically generate TypeScript types from PostgreSQL functions. Catch database schema changes at compile time, not runtime. Full type safety from database to frontend.</description>
+    </item>
+    <item>
+      <title>Excel Exports Done Right: Zero-Allocation Streaming from PostgreSQL</title>
+      <link>https://npgsqlrest.github.io/blog/excel-export-table-format-postgresql-npgsqlrest.html</link>
+      <guid>https://npgsqlrest.github.io/blog/excel-export-table-format-postgresql-npgsqlrest.html</guid>
+      <pubDate>Sun, 24 Aug 2025 12:00:00 GMT</pubDate>
+      <description>Stream .xlsx Excel exports directly from PostgreSQL with constant memory usage. Zero allocations, native type mapping, and one SQL annotation. No more server-crashing export code.</description>
+    </item>
+    <item>
+      <title>Call External APIs from PostgreSQL: HTTP Types in NpgsqlRest</title>
+      <link>https://npgsqlrest.github.io/blog/external-api-calls-postgresql-http-types.html</link>
+      <guid>https://npgsqlrest.github.io/blog/external-api-calls-postgresql-http-types.html</guid>
+      <pubDate>Sun, 24 Aug 2025 12:00:00 GMT</pubDate>
+      <description>Call external REST APIs directly from PostgreSQL functions using .http file syntax in type comments. No HTTP extensions, no middleware, just SQL.</description>
+    </item>
+    <item>
+      <title>Multiple Auth Schemes, RBAC, and External OAuth Providers</title>
+      <link>https://npgsqlrest.github.io/blog/multiple-auth-schemes-rbac-external-providers.html</link>
+      <guid>https://npgsqlrest.github.io/blog/multiple-auth-schemes-rbac-external-providers.html</guid>
+      <pubDate>Sun, 24 Aug 2025 12:00:00 GMT</pubDate>
+      <description>Implement multiple authentication schemes, role-based access control, Google/GitHub OAuth integration, and JWT tokens with PostgreSQL. Complete auth system guide.</description>
+    </item>
+    <item>
+      <title>NpgsqlRest vs PostgREST vs Supabase: Complete Feature Comparison</title>
+      <link>https://npgsqlrest.github.io/blog/npgsqlrest-vs-postgrest-supabase-comparison.html</link>
+      <guid>https://npgsqlrest.github.io/blog/npgsqlrest-vs-postgrest-supabase-comparison.html</guid>
+      <pubDate>Sun, 24 Aug 2025 12:00:00 GMT</pubDate>
+      <description>Side-by-side comparison of NpgsqlRest, PostgREST, and Supabase. Performance benchmarks, features, authentication, file handling, and deployment options compared.</description>
+    </item>
+    <item>
+      <title>Implementing WebAuthn Passkeys with Pure SQL and NpgsqlRest</title>
+      <link>https://npgsqlrest.github.io/blog/passkey-sql-auth.html</link>
+      <guid>https://npgsqlrest.github.io/blog/passkey-sql-auth.html</guid>
+      <pubDate>Sun, 24 Aug 2025 12:00:00 GMT</pubDate>
+      <description>Learn how to implement passwordless WebAuthn passkey authentication entirely in PostgreSQL using NpgsqlRest. Full SQL-based passkey registration, login, and credential management.</description>
+    </item>
+    <item>
+      <title>Performance, Scalability, and High Availability with NpgsqlRest</title>
+      <link>https://npgsqlrest.github.io/blog/performance-scalability-high-availability-npgsqlrest.html</link>
+      <guid>https://npgsqlrest.github.io/blog/performance-scalability-high-availability-npgsqlrest.html</guid>
+      <pubDate>Sun, 24 Aug 2025 12:00:00 GMT</pubDate>
+      <description>Production-ready API configuration: response caching, retry logic, rate limiting, PostgreSQL multi-host failover, and load balancing. Complete guide with examples.</description>
+    </item>
+    <item>
+      <title>Turn PostgreSQL into a BI Server: CSV Exports &amp; Excel Integration</title>
+      <link>https://npgsqlrest.github.io/blog/postgresql-bi-server-excel-csv-basic-auth.html</link>
+      <guid>https://npgsqlrest.github.io/blog/postgresql-bi-server-excel-csv-basic-auth.html</guid>
+      <pubDate>Sun, 24 Aug 2025 12:00:00 GMT</pubDate>
+      <description>Serve CSV reports directly from PostgreSQL to Excel with Basic Auth. Build a complete BI data delivery system without application code.</description>
+    </item>
+    <item>
+      <title>PostgreSQL REST API Benchmark 2026: 14 Frameworks Compared</title>
+      <link>https://npgsqlrest.github.io/blog/postgresql-rest-api-benchmark-2026.html</link>
+      <guid>https://npgsqlrest.github.io/blog/postgresql-rest-api-benchmark-2026.html</guid>
+      <pubDate>Sun, 24 Aug 2025 12:00:00 GMT</pubDate>
+      <description>Performance comparison of 14 REST API frameworks serving PostgreSQL data. NpgsqlRest, PostgREST, Swoole PHP, Go, Rust, Express, FastAPI, Spring Boot and more tested under load.</description>
+    </item>
+    <item>
+      <title>Build a Real-Time Chat App with PostgreSQL and Server-Sent Events</title>
+      <link>https://npgsqlrest.github.io/blog/real-time-chat-postgresql-sse-npgsqlrest.html</link>
+      <guid>https://npgsqlrest.github.io/blog/real-time-chat-postgresql-sse-npgsqlrest.html</guid>
+      <pubDate>Sun, 24 Aug 2025 12:00:00 GMT</pubDate>
+      <description>Build real-time chat with PostgreSQL LISTEN/NOTIFY and Server-Sent Events. No WebSocket servers, no message brokers - just SQL procedures and TypeScript.</description>
+    </item>
+    <item>
+      <title>Reverse Proxy in PostgreSQL: Gateway to External Services with NpgsqlRest</title>
+      <link>https://npgsqlrest.github.io/blog/reverse-proxy-postgresql-ai-service-npgsqlrest.html</link>
+      <guid>https://npgsqlrest.github.io/blog/reverse-proxy-postgresql-ai-service-npgsqlrest.html</guid>
+      <pubDate>Sun, 24 Aug 2025 12:00:00 GMT</pubDate>
+      <description>Proxy external services through PostgreSQL functions. Cache AI responses, aggregate microservices data, avoid connection pool exhaustion. No middleware required.</description>
+    </item>
+    <item>
+      <title>Secure Image Uploads with PostgreSQL: File System and Large Objects</title>
+      <link>https://npgsqlrest.github.io/blog/secure-image-uploads-postgresql-typescript.html</link>
+      <guid>https://npgsqlrest.github.io/blog/secure-image-uploads-postgresql-typescript.html</guid>
+      <pubDate>Sun, 24 Aug 2025 12:00:00 GMT</pubDate>
+      <description>Build a complete image upload system with PostgreSQL. Store files on disk or in Large Objects, with automatic TypeScript client and progress tracking.</description>
+    </item>
+    <item>
+      <title>The Power of Simplicity</title>
+      <link>https://npgsqlrest.github.io/blog/the-power-of-simplicity.html</link>
+      <guid>https://npgsqlrest.github.io/blog/the-power-of-simplicity.html</guid>
+      <pubDate>Sun, 24 Aug 2025 12:00:00 GMT</pubDate>
+      <description>How collapsing the standard data access pattern down to UI → RDBMS could save enough energy to power a small country.</description>
+    </item>
+    <item>
+      <title>What Have PostgreSQL Functions Ever Done for Us?</title>
+      <link>https://npgsqlrest.github.io/blog/what-have-stored-procedures-ever-done-for-us.html</link>
+      <guid>https://npgsqlrest.github.io/blog/what-have-stored-procedures-ever-done-for-us.html</guid>
+      <pubDate>Sun, 24 Aug 2025 12:00:00 GMT</pubDate>
+      <description>Apart from security, performance, maintainability, testability, and zero boilerplate code, what have PostgreSQL stored procedures and functions ever really done for us?</description>
+    </item>
+  </channel>
+</rss>
